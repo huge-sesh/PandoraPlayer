@@ -105,7 +105,7 @@ class PlayerControls: ViewWithXib {
             let image = UIImage(named: Images.playLoading, in: Bundle(for: self.classForCoder), compatibleWith: nil)
             playButton.setImage(image, for: .normal)
             
-            let activityIndicatorView = UIActivityIndicatorView(style: .gray)
+            let activityIndicatorView = UIActivityIndicatorView(style: .medium)
             activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
             
             playButton.addSubview(activityIndicatorView)

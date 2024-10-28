@@ -34,7 +34,7 @@ class PlayerSongList: ViewWithXib {
     
     weak var delegate: PlayerSongListDelegate?
     private(set) var songs: [Song] = []
-	fileprivate (set) var currentSongIndex: Int = 0
+	fileprivate(set) var currentSongIndex: Int = 0
     
     // MARK: Outlets
     

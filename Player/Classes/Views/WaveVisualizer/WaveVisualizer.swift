@@ -5,7 +5,7 @@
 //  Created by Pavel Yevtukhov on 6/6/17.
 //  Copyright © 2017 Applikey Solutions. All rights reserved.
 //
-
+/*
 import UIKit
 import AudioKitUI
 
@@ -38,3 +38,4 @@ class WaveVisualizer: ViewWithXib {
 	}
 }
 
+*/

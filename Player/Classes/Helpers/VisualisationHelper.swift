@@ -6,6 +6,9 @@
 //  Copyright © 2017 Applikey Solutions. All rights reserved.
 //
 
+/*
+ 
+ 
 import Foundation
 import AudioKit
 import AudioKitUI
@@ -30,7 +33,7 @@ class VisualisationHelper {
     static let shared = VisualisationHelper()
 
     
-    func updateWaveWithBuffer(_ buffer: UnsafeMutablePointer<UnsafeMutablePointer<Float>?>!, withBufferSize bufferSize: UInt32, withNumberOfChannels numberOfChannels: UInt32, leftWave: EZAudioPlot, rightWave: EZAudioPlot) {
+    func updateWaveWithBuffer(_ buffer: UnsafeMutablePointer<UnsafeMutablePointer<Float>?>!, withBufferSize bufferSize: UInt32, withNumberOfChannels numberOfChannels: UInt32, leftWave: EZAudioPlot, rightWave: AVAudioPlot) {
         let sz = Int(bufferSize)
         reallocateBuffersIfNeeded(sz: sz)
         
@@ -176,3 +179,4 @@ private class AVGFilter {
         }
     }
 }
+*/
